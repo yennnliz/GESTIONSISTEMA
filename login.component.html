@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VirtualYen</title>
+	<style>
+		body {
+			background-color: #cce0f5;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin: 0;
+			font-family: Arial, sans-serif;
+		}
+		.login-form {
+			background-color: #fff;
+			padding: 30px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+		}
+		.login-form h2 {
+			text-align: center;
+			margin-bottom: 30px;
+			color: #45aaf2;
+		}
+		.form-group {
+			margin-bottom: 20px;
+		}
+		.form-group label {
+			display: block;
+			margin-bottom: 5px;
+			color: #444;
+		}
+		.form-group input[type="text"], .form-group input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #ddd;
+			box-sizing: border-box;
+			color: #444;
+		}
+		.form-group input[type="submit"] {
+			background-color: #45aaf2;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.form-group input[type="submit"]:hover {
+			background-color: #3a9cf2;
+		}
+	</style>
+</head>
+<body>
+	<div class="login-form">
+		<h2>Inicio de Sesion</h2>
+		<form>
+			<div class="form-group">
+				<label for="username">Usuario</label>
+				<input type="text" id="username" name="username">
+			</div>
+			<div class="form-group">
+				<label for="password">Contraseña</label>
+				<input type="password" id="password" name="password">
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Iniciar Sesion">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
